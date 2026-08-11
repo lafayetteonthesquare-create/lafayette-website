@@ -1,0 +1,68 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Local testing without Netlify: run `npx decap-server` in another terminal
+# and Decap will use it automatically when the site is served from localhost.
+
+media_folder: "assets/images/uploads"
+public_folder: "assets/images/uploads"
+
+collections:
+  - name: "settings"
+    label: "Contact & Hours"
+    files:
+      - file: "content/contact.json"
+        label: "Contact Info"
+        name: "contact"
+        fields:
+          - { label: "Street Address", name: "address", widget: "string", hint: "e.g. 104 N Church St, Fayette, MO 65248" }
+          - { label: "Phone", name: "phone", widget: "string", hint: "e.g. (660) 728-6485" }
+          - { label: "Email", name: "email", widget: "string" }
+          - label: "Hours"
+            name: "hours"
+            widget: "list"
+            hint: "One row per line shown on the site. Add/remove/reorder rows as needed."
+            fields:
+              - { label: "Days", name: "days", widget: "string", hint: "e.g. Mon – Tue" }
+              - { label: "Time", name: "time", widget: "string", hint: "e.g. 11a–2p, 4:30p–8p  or  Closed" }
+          - { label: "Facebook URL", name: "facebook", widget: "string", required: false }
+          - { label: "Instagram URL", name: "instagram", widget: "string", required: false }
+          - { label: "Reservation Note", name: "reservationNote", widget: "text", required: false, hint: "Shown on the Visit page under Reservations" }
+          - { label: "Google Maps Embed URL", name: "mapEmbedSrc", widget: "string", required: false, hint: "Google Maps → Share → Embed a map → copy the URL inside src=\"...\"" }
+          - { label: "Closure / Announcement Banner", name: "closureNote", widget: "text", required: false, hint: "Shows as a banner at the top of every page. Leave this completely blank to hide the banner." }
+
+  - name: "menu"
+    label: "Menu"
+    files:
+      - file: "content/menu.json"
+        label: "Full Menu"
+        name: "menu"
+        fields:
+          - label: "Menu Sections"
+            name: "categories"
+            widget: "list"
+            summary: "{{fields.name}}"
+            hint: "Each section is one part of the menu (Starters, Salads, etc). Drag to reorder — order here matches the order on the site."
+            fields:
+              - { label: "Section ID", name: "id", widget: "string", hint: "No spaces — used internally for the page link, e.g. starters. Don't change this on an existing section unless you also want its web link to change." }
+              - { label: "Section Heading", name: "name", widget: "string", hint: "Shown as the big heading, e.g. Starters" }
+              - { label: "Short Nav Label", name: "navLabel", widget: "string", hint: "Shown in the small pill navigation at the top, e.g. Starters" }
+              - { label: "Note Under Heading", name: "note", widget: "string", required: false, hint: "Optional — e.g. serving info or a footnote" }
+              - { label: "Single Column Layout", name: "single", widget: "boolean", default: false, hint: "Turn on for short sections (like Taste of New Orleans) to center one column instead of two" }
+              - label: "Groups"
+                name: "groups"
+                widget: "list"
+                summary: "{{fields.label}}"
+                hint: "Most sections need only ONE group with a blank label. Use multiple groups only when a section has sub-headings (like Handhelds: Po'Boys / Burgers / Sandwiches)."
+                fields:
+                  - { label: "Sub-heading (leave blank if none)", name: "label", widget: "string", required: false }
+                  - label: "Items"
+                    name: "items"
+                    widget: "list"
+                    summary: "{{fields.name}} — {{fields.price}}"
+                    fields:
+                      - { label: "Dish Name", name: "name", widget: "string" }
+                      - { label: "Price", name: "price", widget: "string", hint: "e.g. $18  or  Half $6 / Full $12" }
+                      - { label: "Description", name: "desc", widget: "text", required: false }
+                      - { label: "Add-ons / Notes", name: "addons", widget: "string", required: false, hint: "e.g. Add: grilled chicken 18 · grilled shrimp 19" }

@@ -1,0 +1,219 @@
+{
+  "categories": [
+    {
+      "id": "starters",
+      "name": "Starters",
+      "navLabel": "Starters",
+      "note": "",
+      "single": false,
+      "groups": [
+        {
+          "label": "",
+          "items": [
+            { "name": "Louisiana-Fried Shrimp", "price": "$22", "desc": "Crispy fried shrimp paired with a honey jalapeño dip.", "addons": "" },
+            { "name": "Jaybird Wings", "price": "$18", "desc": "Smoked wings fried naked and tossed in our buffalo or BBQ sauce, topped with bleu-cheese crumbles, with a side of buttermilk ranch.", "addons": "" },
+            { "name": "Dirty Frites", "price": "$15", "desc": "House-cut fries with a creamy cheese sauce, crispy bacon crumbles, and fresh chives.", "addons": "" },
+            { "name": "Cajun-Fried Okra", "price": "$13", "desc": "Lightly breaded, fried, and dusted with our signature spice, served with NOLA-style remoulade.", "addons": "" },
+            { "name": "BBQ Ribs", "price": "$22", "desc": "Slow-smoked and drizzled with our house-made BBQ sauce.", "addons": "" },
+            { "name": "Fried Green Beans", "price": "$10", "desc": "Lightly breaded, dusted with our signature spice, served with NOLA-style remoulade.", "addons": "" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salads",
+      "name": "Salads & Soup",
+      "navLabel": "Salads & Soup",
+      "note": "House dressings: balsamic vinaigrette · bleu cheese · buttermilk ranch · honey jalapeño · honey mustard · thousand island",
+      "single": false,
+      "groups": [
+        {
+          "label": "",
+          "items": [
+            { "name": "Caesar Salad", "price": "$11", "desc": "Romaine tossed with house-made Caesar dressing, fresh-grated parmesan, red onion, croutons, and tomato.", "addons": "Add: grilled chicken 18 · southern-fried chicken 15 · Louisiana-fried shrimp 19 · grilled steak 21 · grilled salmon 21" },
+            { "name": "The Purdy-Big Salad", "price": "$11", "desc": "Mixed greens, red onions, shredded cheese, cucumber, crispy bacon crumbles, croutons, and tomato, with a slice of garlic bread.", "addons": "Add: grilled chicken 18 · southern-fried chicken 15 · Louisiana-fried shrimp 19 · grilled steak 21" },
+            { "name": "Southwest Salad", "price": "$13", "desc": "Romaine and iceberg blend in southwest ranch, with grilled corn, black bean pico, queso menonita, creamy verde sauce, and crispy tortilla strips.", "addons": "Add: grilled steak 21 · grilled chicken 20 · grilled shrimp 21" },
+            { "name": "Soup of the Day", "price": "Cup $4 / Bowl $6", "desc": "", "addons": "" },
+            { "name": "Gumbo", "price": "Cup $5 / Bowl $7", "desc": "", "addons": "" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sides",
+      "name": "Sides",
+      "navLabel": "Sides",
+      "note": "*Baked potato available only after 4:00pm",
+      "single": false,
+      "groups": [
+        {
+          "label": "",
+          "items": [
+            { "name": "Onion Rings", "price": "Half $6 / Full $12", "desc": "", "addons": "" },
+            { "name": "Sweet Potato Fries", "price": "Half $6 / Full $12", "desc": "", "addons": "" },
+            { "name": "Cajun Fried Okra", "price": "$5", "desc": "", "addons": "" },
+            { "name": "House Cut Fries", "price": "Half $4 / Full $7", "desc": "", "addons": "" },
+            { "name": "Sautéed Green Beans", "price": "$6", "desc": "", "addons": "" },
+            { "name": "Steamed Broccoli", "price": "$6", "desc": "", "addons": "" },
+            { "name": "Grilled Asparagus", "price": "$7", "desc": "", "addons": "" },
+            { "name": "Mashed Potatoes", "price": "$5", "desc": "", "addons": "" },
+            { "name": "Baked Potato", "price": "w/butter $5 / loaded $8", "desc": "", "addons": "" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taste-of-new-orleans",
+      "name": "Taste of New Orleans",
+      "navLabel": "Taste of N.O.",
+      "note": "",
+      "single": true,
+      "groups": [
+        {
+          "label": "",
+          "items": [
+            { "name": "Creole Jambalaya", "price": "$22", "desc": "Chicken, shrimp, andouille, tasso, the holy trinity, stewed tomatoes, and rice.", "addons": "" },
+            { "name": "Kiss My Gritz", "price": "$22", "desc": "Pan-seared shrimp and smoked andouille served atop creamy parmesan grits.", "addons": "" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "handhelds",
+      "name": "Handhelds",
+      "navLabel": "Handhelds",
+      "note": "All handhelds are served with house-cut fries dusted in our signature spice, or substitute a side of your choice for an additional charge.",
+      "single": false,
+      "groups": [
+        {
+          "label": "Po'Boys",
+          "items": [
+            { "name": "Shrimp Po'Boy", "price": "$20", "desc": "Louisiana-fried shrimp, shredded lettuce, tomato, and honey jalapeño.", "addons": "" },
+            { "name": "Steak & Cheese Po'Boy", "price": "$21", "desc": "Grilled beef tenderloin, caramelized onions, roasted bell peppers, provolone, house-made worcestershire.", "addons": "" },
+            { "name": "Catfish Po'Boy", "price": "$17", "desc": "Breaded fillets served with slaw and tartar sauce.", "addons": "" },
+            { "name": "Veggie Po'Boy", "price": "$13", "desc": "Grilled mushrooms, broccoli, caramelized onions, roasted bell peppers, tomato, baby spinach, basil-pesto aioli, fontina.", "addons": "" }
+          ]
+        },
+        {
+          "label": "Burgers",
+          "items": [
+            { "name": "Farmhouse Burger", "price": "$18.50", "desc": "Fried egg, melted provolone, caramelized-onion bacon jam, arugula, baby spinach.", "addons": "" },
+            { "name": "Church Street Burger", "price": "$18.50", "desc": "House-made BBQ sauce, melted sharp-aged cheddar, thick-sliced bacon, hand-breaded onion rings.", "addons": "" },
+            { "name": "Black & Bleu Burger", "price": "$18.50", "desc": "Seasoned with our signature spice, bleu cheese crumbles, thick-sliced bacon, garlic truffle aioli.", "addons": "" },
+            { "name": "'Shroom Burger", "price": "$18.50", "desc": "Grilled mushrooms, swiss cheese, garlic truffle aioli, arugula, baby spinach.", "addons": "" },
+            { "name": "Build Your Own Burger", "price": "$14", "desc": "Plain burger, add the topping of your choice for $1 each.", "addons": "" }
+          ]
+        },
+        {
+          "label": "Sandwiches",
+          "items": [
+            { "name": "Southern Frenchman's Cheese Melt", "price": "$15", "desc": "Melted fontina, smoked gouda, extra-sharp white cheddar, caramelized onions, bacon crumbles, grilled sourdough.", "addons": "" },
+            { "name": "Wilbur's Fortune", "price": "$18.50", "desc": "Toasted sourdough, lemon basil aioli, tomato, lettuce, thick-cut bacon.", "addons": "" },
+            { "name": "Turkey Bacon Verde Melt", "price": "$17.50", "desc": "Grilled sourdough, melted chihuahua cheese, sliced turkey, crispy bacon, creamy verde sauce, lettuce, tomato.", "addons": "" },
+            { "name": "Classic Reuben", "price": "$18.50", "desc": "Corned beef, swiss cheese, sauerkraut, marble rye, choice of thousand island or creole mustard.", "addons": "" },
+            { "name": "Hen Named “Louisiana”", "price": "$17.50", "desc": "Hand-breaded buttermilk chicken, melted sharp-aged cheddar, house slaw, buttermilk ranch.", "addons": "" },
+            { "name": "Mateo's Pollo Sandwich", "price": "$17.50", "desc": "Grilled chicken breast, creamy cheese blend, thick-cut bacon, jalapeños, creamy verde sauce.", "addons": "" },
+            { "name": "Pork Tenderloin Sammy", "price": "$18", "desc": "Hand-breaded or grilled, pickles, toasted brioche bun.", "addons": "" },
+            { "name": "Cajun Grilled Chicken Sandwich", "price": "$14", "desc": "Plain chicken, add the toppings of your choice for $1 each.", "addons": "" },
+            { "name": "Lafayette Trio", "price": "$15.50", "desc": "Grilled cheese on sourdough or rye, cup of soup or gumbo, and a small salad.", "addons": "" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quesadillas-wraps",
+      "name": "Quesadillas & Wraps",
+      "navLabel": "Quesadillas & Wraps",
+      "note": "Served with fresh tortilla chips, salsa, and sour cream.",
+      "single": false,
+      "groups": [
+        {
+          "label": "",
+          "items": [
+            { "name": "Steak Chile Ahumado", "price": "$24", "desc": "Grilled steak, smoked chile pesto, melted chihuahua cheese, roasted peppers, grilled onions.", "addons": "" },
+            { "name": "Chicken and Cheese", "price": "$15", "desc": "Roasted chicken, melted chihuahua cheese.", "addons": "" },
+            { "name": "El Guapo Wrap", "price": "$22", "desc": "Grilled chicken, a “plethora” of rice, black bean and corn pico, chihuahua cheese, lettuce, southwest ranch, creamy verde sauce.", "addons": "Grilled steak 27 · shrimp 24" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "platters",
+      "name": "Platters",
+      "navLabel": "Platters",
+      "note": "",
+      "single": false,
+      "groups": [
+        {
+          "label": "",
+          "items": [
+            { "name": "Cajun Fish & Chips", "price": "$17", "desc": "Catfish breaded in a cornmeal batter, house slaw, fresh-cut fries, signature spice.", "addons": "" },
+            { "name": "Louisiana-Fried Shrimp", "price": "$20", "desc": "House slaw, cajun fries, honey jalapeño.", "addons": "" },
+            { "name": "Buttermilk Chicken Tenders", "price": "$17.50", "desc": "Hand-breaded tenders, house slaw, cut fries, signature spice.", "addons": "" },
+            { "name": "Rib Platter", "price": "$25", "desc": "House slaw, fresh-cut fries, our signature barbecue sauce.", "addons": "" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pastas",
+      "name": "Pastas",
+      "navLabel": "Pastas",
+      "note": "",
+      "single": false,
+      "groups": [
+        {
+          "label": "",
+          "items": [
+            { "name": "Creole Pasta", "price": "$16", "desc": "Cavatappi with roasted bell peppers, onions, smoked andouille sausage, diced tomatoes, creamy cajun sauce.", "addons": "Chicken 22 · shrimp 24 · combo 26" },
+            { "name": "1886 Pasta", "price": "$14", "desc": "Tossed in a fiery vodka sauce with fresh basil.", "addons": "Chicken 20 · shrimp 22 · combo 26" },
+            { "name": "Fettuccine Alfredo", "price": "$14", "desc": "Creamy alfredo over fettuccine, served with broccoli.", "addons": "Chicken 20 · shrimp 22 · combo 24" },
+            { "name": "Pasta Pomodoro", "price": "$14", "desc": "Tomato sauce with basil over linguine, olive oil, parmesan reggiano, balsamic reduction.", "addons": "Chicken 20 · shrimp 22 · combo 24" },
+            { "name": "Pasta Primavera", "price": "$22", "desc": "Cheese-filled tortellini with mushrooms, red onions, asparagus, roasted red bell peppers, baby spinach, basil pesto, feta, balsamic reduction.", "addons": "" },
+            { "name": "Black Pepper & Truffle Gnocchi", "price": "$20", "desc": "Gnocchi in a creamy mushroom sauce, chives, parmesan reggiano, finished with truffle oil.", "addons": "" },
+            { "name": "Mac & Cheese de Lafayette", "price": "$15", "desc": "Cavatappi tossed in cream sauce and a five-cheese blend, finished with garlic herb breadcrumbs.", "addons": "Grilled chicken 20 · southern-fried chicken 20" },
+            { "name": "Salmon Florentine", "price": "$29", "desc": "Grilled salmon atop cavatappi tossed in creamy spinach sauce, finished with diced tomatoes and feta.", "addons": "" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "entrees",
+      "name": "Entrées",
+      "navLabel": "Entrees",
+      "note": "Available only after 4:30pm. All entrées are served with your choice of soup or salad.",
+      "single": false,
+      "groups": [
+        {
+          "label": "",
+          "items": [
+            { "name": "Smoked Boneless Pork Chops", "price": "$30", "desc": "Locally sourced from Sullivan Farms, topped with our house-made BBQ sauce, served with choice of potato and veggie.", "addons": "" },
+            { "name": "Grilled Airline Chicken Breast", "price": "$29", "desc": "Topped with a bourbon glaze, roasted garlic mashers, grilled asparagus.", "addons": "" },
+            { "name": "12oz Ribeye", "price": "$40", "desc": "With choice of baked or mashed potato.", "addons": "Add grilled shrimp $2/ea · grilled asparagus $7 · grilled green beans $6" },
+            { "name": "Honey Chipotle Salmon", "price": "$30", "desc": "Grilled, served with sweet potato purée and cilantro lime sauce.", "addons": "" },
+            { "name": "Grilled Beef Tenderloin Tails", "price": "$40", "desc": "Served with mashers, grilled asparagus, topped with our house-made worcestershire sauce.", "addons": "" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "name": "Specialty Drinks",
+      "navLabel": "Drinks",
+      "note": "",
+      "single": false,
+      "groups": [
+        {
+          "label": "",
+          "items": [
+            { "name": "Marquis Margarita", "price": "$12", "desc": "A classic margarita with a splash of amaretto.", "addons": "" },
+            { "name": "Back Porch Tea", "price": "$9", "desc": "Bourbon, peach syrup, & sour mix.", "addons": "" },
+            { "name": "Blackberry Buck", "price": "$9", "desc": "Vodka, lime, blackberry syrup, ginger beer.", "addons": "" },
+            { "name": "Lavender Lemonade", "price": "$9", "desc": "Lavender syrup, vodka, & lemonade.", "addons": "" },
+            { "name": "Sangria", "price": "$12", "desc": "Fruit, amaretto, & Apothic dark blend wine.", "addons": "" }
+          ]
+        }
+      ]
+    }
+  ]
+}
