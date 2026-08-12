@@ -33,6 +33,7 @@
             { "name": "Caesar Salad", "price": "$11", "desc": "Romaine tossed with house-made Caesar dressing, fresh-grated parmesan, red onion, croutons, and tomato.", "addons": "Add: grilled chicken 18 · southern-fried chicken 15 · Louisiana-fried shrimp 19 · grilled steak 21 · grilled salmon 21" },
             { "name": "The Purdy-Big Salad", "price": "$11", "desc": "Mixed greens, red onions, shredded cheese, cucumber, crispy bacon crumbles, croutons, and tomato, with a slice of garlic bread.", "addons": "Add: grilled chicken 18 · southern-fried chicken 15 · Louisiana-fried shrimp 19 · grilled steak 21" },
             { "name": "Southwest Salad", "price": "$13", "desc": "Romaine and iceberg blend in southwest ranch, with grilled corn, black bean pico, queso menonita, creamy verde sauce, and crispy tortilla strips.", "addons": "Add: grilled steak 21 · grilled chicken 20 · grilled shrimp 21" },
+            { "name": "Steak Salad", "price": "$26", "desc": "Grilled beef tenderloin over mixed greens with red onion, asparagus, and tomato, topped with bleu cheese crumbles, served with balsamic vinaigrette.", "addons": "" },
             { "name": "Soup of the Day", "price": "Cup $4 / Bowl $6", "desc": "", "addons": "" },
             { "name": "Gumbo", "price": "Cup $5 / Bowl $7", "desc": "", "addons": "" }
           ]
@@ -170,7 +171,7 @@
             { "name": "Fettuccine Alfredo", "price": "$14", "desc": "Creamy alfredo over fettuccine, served with broccoli.", "addons": "Chicken 20 · shrimp 22 · combo 24" },
             { "name": "Pasta Pomodoro", "price": "$14", "desc": "Tomato sauce with basil over linguine, olive oil, parmesan reggiano, balsamic reduction.", "addons": "Chicken 20 · shrimp 22 · combo 24" },
             { "name": "Pasta Primavera", "price": "$22", "desc": "Cheese-filled tortellini with mushrooms, red onions, asparagus, roasted red bell peppers, baby spinach, basil pesto, feta, balsamic reduction.", "addons": "" },
-            { "name": "Black Pepper & Truffle Gnocchi", "price": "$20", "desc": "Gnocchi in a creamy mushroom sauce, chives, parmesan reggiano, finished with truffle oil.", "addons": "" },
+            { "name": "Beef Tenderloin Pasta", "price": "$28", "desc": "Grilled beef tenderloin with sautéed mushrooms, baby spinach, asparagus, red onion, and garlic, tossed with fettuccine and finished with our house-made Worcestershire sauce, topped with bleu cheese crumbles.", "addons": "" },
             { "name": "Mac & Cheese de Lafayette", "price": "$15", "desc": "Cavatappi tossed in cream sauce and a five-cheese blend, finished with garlic herb breadcrumbs.", "addons": "Grilled chicken 20 · southern-fried chicken 20" },
             { "name": "Salmon Florentine", "price": "$29", "desc": "Grilled salmon atop cavatappi tossed in creamy spinach sauce, finished with diced tomatoes and feta.", "addons": "" }
           ]
