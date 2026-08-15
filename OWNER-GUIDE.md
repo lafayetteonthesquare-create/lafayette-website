@@ -54,24 +54,65 @@ website's files there.
 
 ---
 
-## Part 3 — Point your domain at it
+## Part 3 — Point your already-purchased domain at it
 
-Wherever you originally bought your domain (GoDaddy, Namecheap, Google
-Domains, etc.) — you keep it there. You're just telling it to send visitors
-to Netlify.
+Wherever you originally bought the domain (GoDaddy, Namecheap, Google
+Domains, etc.) — you keep it there and keep paying that renewal as normal.
+You're not moving or re-buying anything; you're just telling it to send
+visitors to Netlify.
 
-1. In Netlify: **Site settings → Domain management → Add a domain** and
-   type in your domain.
-2. Netlify will show you DNS records to add (usually one **A record** and
-   one **CNAME** for `www`). Alternatively, Netlify can offer to be your
-   domain's nameservers, which is simpler if you're comfortable letting it
-   manage DNS entirely — either approach works.
-3. Log into your domain registrar's dashboard, find **DNS settings**, and
-   add the records Netlify showed you.
-4. DNS changes can take anywhere from a few minutes to a few hours to take
-   effect. Netlify will show a green checkmark once it sees the domain
-   pointing correctly, and will automatically issue a free SSL certificate
-   (the padlock in the browser) once that happens.
+### Step 1: Add the domain in Netlify
+
+1. Open your site in Netlify, then in the left sidebar click
+   **Domain management**.
+2. Click **Add a domain**.
+3. It'll ask if you've already registered the domain — choose **"Add a
+   domain you already own"** (not "Buy a new domain") and type it in
+   (e.g. `lafayetteonthesquare.com`).
+
+### Step 2: Choose how DNS is managed
+
+Netlify will ask you to pick one of two paths. Either works fine for a site
+this size — pick whichever sounds more comfortable:
+
+**Option A — Let Netlify manage DNS (simplest, recommended)**
+
+Netlify will show you **4 nameserver values** (something like
+`dns1.p0x.nsone.net`, `dns2.p0x.nsone.net`, etc. — copy the *exact* ones
+Netlify shows you, they're unique to your account).
+
+1. Log into wherever you bought the domain, and find its **nameserver /
+   DNS management settings**:
+   - **GoDaddy:** My Products → Domain → DNS → Nameservers → Change → Enter my own nameservers
+   - **Namecheap:** Domain List → Manage → Nameservers → Custom DNS
+   - **Google Domains / Squarespace Domains:** DNS → Name servers → Use custom name servers
+2. Replace whatever nameservers are listed with the 4 Netlify gave you.
+3. Save. This can take a few hours (sometimes up to a day) to fully take
+   effect. Once it does, Netlify manages everything automatically —
+   including issuing the free SSL certificate (the padlock in the browser).
+
+**Option B — Keep DNS at your current registrar, just add records**
+
+Better if that registrar is already handling other things for this domain
+(like email) that you don't want to disturb.
+
+1. Netlify will show you the specific DNS records to add — typically an
+   **A record** (or ALIAS/ANAME) for the bare domain and a **CNAME** for
+   `www`. Use the *exact* values shown on your screen, not values from
+   any other guide — they can change.
+2. Log into your registrar, find **DNS settings** (sometimes called "DNS
+   Management" or "Advanced DNS"), and add each record exactly as shown.
+3. Save. Same as above — allow a few hours for it to propagate, and
+   Netlify will show a green checkmark plus issue SSL automatically once
+   it sees the domain pointing correctly.
+
+### Step 3: Confirm it worked
+
+Visit your domain in a browser (may take a bit after DNS propagates) and
+confirm the site loads with `https://` and a padlock icon. If Netlify's
+Domain management page still shows a warning after a day, double-check the
+exact values against what's currently in your registrar's DNS settings —
+a typo there is the most common snag.
 
 ---
 
