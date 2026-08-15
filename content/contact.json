@@ -1,17 +1,32 @@
 {
-  "address": "104 N Church St, Fayette, MO 65248",
-  "phone": "(660) 728-6485",
-  "email": "lafayetteonthesquare@gmail.com",
-  "hours": [
-    { "days": "Mon – Tue", "time": "Closed" },
-    { "days": "Wed – Thu", "time": "11a–2p, 4:30p–8p" },
-    { "days": "Fri", "time": "11a–2p, 4p–9p" },
-    { "days": "Sat", "time": "11a–9p" },
-    { "days": "Sun", "time": "Closed" }
-  ],
   "facebook": "https://www.facebook.com/p/LaFayette-On-The-Square-61569646816271/",
-  "instagram": "",
-  "reservationNote": "Call (660) 728-6485 — walk-ins are welcome, but we'd recommend calling ahead on weekends.",
   "mapEmbedSrc": "https://www.google.com/maps?q=104+N+Church+St,+Fayette,+MO+65248&output=embed",
-  "closureNote": "We're closed August 2–8 and January 1–5 for staff vacation. Thank you for your understanding — we look forward to serving you when we return."
+  "closureNote": "We're closed August 2–8 and January 1–5 for staff vacation. Thank you for your understanding — we look forward to serving you when we return.",
+  "phone": "(660) 728-6485!!!",
+  "hours": [
+    {
+      "days": "Mon – Tue",
+      "time": "Closed"
+    },
+    {
+      "days": "Wed – Thu",
+      "time": "11a–2p, 4:30p–8p"
+    },
+    {
+      "days": "Fri",
+      "time": "11a–2p, 4p–9p"
+    },
+    {
+      "days": "Sat",
+      "time": "11a–9p"
+    },
+    {
+      "days": "Sun",
+      "time": "Closed"
+    }
+  ],
+  "instagram": "",
+  "address": "104 N Church St, Fayette, MO 65248",
+  "email": "lafayetteonthesquare@gmail.com",
+  "reservationNote": "Call (660) 728-6485 — walk-ins are welcome, but we'd recommend calling ahead on weekends."
 }
